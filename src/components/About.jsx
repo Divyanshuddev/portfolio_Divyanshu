@@ -8,10 +8,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import userPhoto from '../assets/photo_2024-07-16_05-09-17.jpg'
 const style = {
     container: {
-        height: "100vh",
+        minHeight: "100vh",
+        maxWidth:"120vw",
         backgroundColor: "#030712",
         display: "flex",
         flexDirection: "row",
+        // flexWrap:"wrap",
 
     },
     textContainer: {
